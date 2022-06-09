@@ -5,6 +5,11 @@
     font-family: 'Roboto'
 }
 
+.stickyScroll {
+    position:sticky; top:0;
+    z-index: 10;
+
+}
 
 .navHeader {
     width: 100%;
@@ -51,6 +56,9 @@ h1 {
 
 .divMain {
     margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .article1, article {
